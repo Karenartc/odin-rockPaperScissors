@@ -9,6 +9,10 @@ function getComputerChoice() {
 }
 
 //Create function that returns the choice of the user.
+function getHumanChoice(){
+    let userOption = prompt("Tell me your choice (rock, paper or scissors): ");
+    return userOption.toLowerCase();
+}
 
 //Create function for the game to be played 5 times
 
@@ -18,3 +22,4 @@ function getComputerChoice() {
 
     
 console.log(getComputerChoice());
+console.log(getHumanChoice());
