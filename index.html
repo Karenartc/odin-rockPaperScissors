@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, paper, scissors</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="script.js"></script> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>ROCK, PAPER, SCISSORS. GO!</h1>
-    <h3>Just 5 rounds.</h3>
+    <header>
+        <h1>ROCK, PAPER, SCISSORS. GO!</h1>
+    </header>
+
+    <div class="gamePlaySection">
+
+        <div class="points"></div>
+
+        <div class="userSide">
+            <img src="images/user.png" alt="girl user">
+            <div class="rockBtn"> <img src="images/rockHand.png" alt="hand closed doing rock"> </div>
+            <div class="paperBtn"> <img src="images/paperHand.png" alt="hand open doing paper"> </div>
+            <div class="scissorsBtn"> <img src="images/scissorsHand.png" alt="hand with two fingers up doing scissors"> </div>
+        </div>
+
+        <div class="computerSide">
+            <img src="images/computer.png" alt="computer">
+            <div class="rockBtn"> <img src="images/rockHand.png" alt="hand closed doing rock"> </div>
+            <div class="paperBtn"> <img src="images/paperHand.png" alt="hand open doing paper"> </div>
+            <div class="scissorsBtn"> <img src="images/scissorsHand.png" alt="hand with two fingers up doing scissors"> </div>
+        </div>
+
+    </div>
+
+    <div class="resultSection"></div>
 </body>
-<script src="script.js"></script>
 </html>
