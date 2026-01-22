@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, paper, scissors</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>ROCK, PAPER, SCISSORS. GO!</h1>
-    <h3>Just 5 rounds.</h3>
+    <header>
+        <h1>ROCK, PAPER, SCISSORS. GO!</h1>
+    </header>
+
+    <div class="gamePlaySection">
+
+        <div class="userSide">
+            <img class="userImg" src="images/user.png" alt="girl user">
+            <h3>0</h3>
+
+            <div class="buttonsUser">
+                <div> <img class="rock" src="images/rockHand.png" alt="hand closed doing rock"> </div>
+                <div> <img class="paper" src="images/paperHand.png" alt="hand open doing paper"> </div>
+                <div> <img class="scissors" src="images/scissorsHand.png" alt="hand with two fingers up doing scissors"> </div>
+            </div>
+        </div>
+
+        <div class="computerSide">
+            <img class="computerImg" src="images/computer.png" alt="computer">
+            <h3>0</h3>
+
+            <div class="buttonsComputer">
+                <div> <img class="rock" src="images/rockHand.png" alt="hand closed doing rock"> </div>
+                <div> <img class="paper" src="images/paperHand.png" alt="hand open doing paper"> </div>
+                <div> <img class="scissors" src="images/scissorsHand.png" alt="hand with two fingers up doing scissors"> </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <div class="resultSection">
+        <h3 class="firstText"> The first to win five rounds wins! </h3>
+        <h3 class="secondText"> Click an option to start the game. </h3>
+        
+    </div>
 </body>
-<script src="script.js"></script>
 </html>

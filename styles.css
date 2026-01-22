@@ -1,0 +1,104 @@
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  background-color: #1c2f6b;
+  color: #ddac0a;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.gamePlaySection {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.userSide,
+.computerSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 30px;
+
+}
+
+.userSide .userImg,
+.computerSide .computerImg {
+    width: 200px;
+    height: auto;
+}
+
+.userSide h3,
+.computerSide h3 {
+    margin: 0px 0px 40px 0px;
+    font-size: 40px;
+    color: red;
+}
+
+.buttonsUser,
+.buttonsComputer {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.buttonsUser img,
+.buttonsComputer img {
+    width: 90px;
+    height: auto;
+    box-shadow: #1E40AF 2px 2px 2px 2px;
+}
+
+.buttonsUser img:hover {
+    transform: translateY(-30px);
+}
+
+.resultSection h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.resultNeutral { color: #ddac0a; }
+.resultWin     { color: #ddac0a; }
+.resultLose    { color: #f51808; }
+.resultTie     { color: #ffffff; }
+
+.selectedHuman {
+  transform: translateY(-30px);
+}
+
+.selectedComputer {
+  transform: translateY(-30px);
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+.resultSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playAgainBtn {
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #ffffff;
+    color: #f51808;
+    padding: 14px 22px;
+    font-size: 22px;
+    box-shadow: #06021b 2px 2px 2px 2px;
+    margin: 30px 0px;
+}
+
+.playAgainBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: #06021b 3px 3px 3px 3px;
+}
